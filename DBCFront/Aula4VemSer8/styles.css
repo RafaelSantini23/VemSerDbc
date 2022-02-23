@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  align-items: stretch;
+}
+nav ul li {
+  display: inline;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.container-flex {
+  display: flex;
+}
