@@ -1,0 +1,36 @@
+.container-bixos {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxs {
+  display: flex;
+  margin-top: 20px;
+}
+.boxs p {
+  color: white;
+  padding: 0 10px;
+}
+.legenda {
+  background-color: #333;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.dog-primario img {
+  height: 91.7%;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+
+}
+.dogs-lateral {
+  margin: 0px 20px;
+}
+.dogs-lateral img {
+  height: 265px;
+  display: block;
+  margin-top: 10px;
+}

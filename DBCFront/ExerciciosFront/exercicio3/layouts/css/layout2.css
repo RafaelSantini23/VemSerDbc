@@ -1,0 +1,56 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.container-dogs   {
+  display: flex;
+  margin-top: 40px;
+  
+}
+.container-dogs > div {
+  padding: 0 20px;
+}
+.container-propagandas {
+  display: flex;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+.box {
+  width: 357px;
+  height: 350px;
+}
+.propaganda-principal {
+  width: 357px;
+  height: 350px;
+  border: 3px solid black;
+}
+
+.box > p {
+  margin-top: 2px;
+  text-align: center;
+}
+
+.bermudas {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  flex-flow: row wrap;
+  height: 540px;
+
+}
+
+.bermudas > div {
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
+}
+
+.bermudas img {
+  width: 218px;
+}
+
+.bermudas > div,.bermudas p {
+  padding: 0 15px;
+}

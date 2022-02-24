@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 80px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  padding: 0 30px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+nav ul li {
+  display: inline;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
