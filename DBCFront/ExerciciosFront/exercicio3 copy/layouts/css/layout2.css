@@ -1,0 +1,34 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.dogs-column {
+  display: grid;
+  grid-template-columns:  auto auto auto;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.second-column {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    padding-top: 15px;  
+}
+
+.dogs-center > div, .dogs-right > div {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin-bottom: 15px;
+}
+
+.dogs-center div > img, .dogs-right div > img {
+  max-width: 50%;
+}
+
+.cachorro-principal p {
+  text-align: center;
+}
