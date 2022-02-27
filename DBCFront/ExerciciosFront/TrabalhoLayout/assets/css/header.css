@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:  'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  position: sticky;
+  top: 0;
+}
+
+.nav-header a {
+  text-decoration: none;
+  color: #18A0FB;
+  font-size: 15px;
+  line-height: 18.29px;
+  font-weight: 500;
+}
+
+.logo {
+  margin: 80px;
+}
+
+.nav-header a:hover {
+  text-decoration: underline;
+}
+
+.nav-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header ul li {
+  display: inline;
+}
+.nav-header .nav-links li {
+  margin: 0 30px;
+  
+}
+
+.nav-header .nav-botoes li:first-child button {
+  margin: 0px 12px 0px;
+}
+
+.register {
+  margin-right: 80px;
+}
+
+
+.nav-botoes li button {
+  width: 130px;
+  height: 40px;
+  font-size: 15px;  
+  font-weight: 500;
+}
+
+ul li:last-child button {
+  background: #18A0FB;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1238px) {
+  header > a .logo{
+    margin: 9px;
+  }
+
+  .nav-botoes li button{
+    margin-right: 50px;
+  }
+  
+}
+
+@media (max-width: 1008px) {
+  .nav-links {
+    width: 0;
+    display: none;
+  }
+  .nav-header {
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .nav-botoes {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+}
