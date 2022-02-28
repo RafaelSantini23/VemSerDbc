@@ -91,10 +91,8 @@
 /* Segunda Section */
 .body-b {
   width: 100%;
+  height: 100vh;
   background-color: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  
 }
 .conteudo-grid {
   display: grid;
@@ -258,6 +256,9 @@
   margin-right: 84px;
 }
 
+
+
+
 @media (max-width: 1238px) {
   .conteudo-grid {
     width: 100%;
@@ -305,7 +306,7 @@
     width: 100%;
   }
 
-  .testimonial-d {
+  .testimonial-d,.body-b {
     height: auto;
   }
 
@@ -328,8 +329,6 @@
     grid-template-columns: auto;
   }
   
-  
-
   .conteudo-principal div p {
     font-size: 32px;
   }
@@ -353,9 +352,13 @@
     text-align: center;
   }
 
+  .conteudo-acima p {
+    font-size: 22px;
+  }
+
 }
 
-@media (max-width: 502px) {
+@media (max-width: 626px) {
   .conteudo-sobre {
     margin: 0 10px;
   }

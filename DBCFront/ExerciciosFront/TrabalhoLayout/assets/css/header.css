@@ -26,7 +26,7 @@ header {
 }
 
 .logo {
-  margin: 80px;
+  margin: 60px;
 }
 
 .nav-header a:hover {
@@ -52,7 +52,7 @@ header {
 }
 
 .register {
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 
@@ -68,18 +68,23 @@ ul li:last-child button {
   color: #FFFFFF;
 }
 
+
+.menu i{
+ color: white; 
+}
+
 @media (max-width: 1238px) {
   header > a .logo{
-    margin: 9px;
+    margin: 18px;
   }
-
-  .nav-botoes li button{
-    margin-right: 50px;
+  
+  .nav-header li button {
+    margin-right: 18px;
   }
   
 }
 
-@media (max-width: 1008px) {
+@media (max-width: 1150px) {
   .nav-links {
     width: 0;
     display: none;
@@ -89,11 +94,40 @@ ul li:last-child button {
     align-items: flex-end;
     justify-content: flex-end;
   }
-
+  
   .nav-botoes {
     width: 100%;
     display: flex;
     justify-content: flex-end;
   }
+  .menu i{
+    color: black;
+    font-size: 20px;
+  }
+  .menu i:hover {
+    transition: .5s ease-in;
+    color: #18A0FB !important;
+  }
   
+}
+
+@media (max-width: 624px) {
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 9px;
+  }
+
+  i {
+    color: black !important;
+    font-size: 24px;
+    
+  }
+   .menu i:hover {
+    transition: .5s ease-in;
+    color: #18A0FB !important;
+  }
 }
